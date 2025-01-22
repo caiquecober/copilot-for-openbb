@@ -22,7 +22,7 @@ To return a chart, you must always use the `return_chart` function, for example:
 
 ```python
 
-# return_chart_custom(df,nome, chart_type: Literal["line", "bar", "scatter"]="line", xKey="column_a", yKey="column_b")
+# return_chart_custom(df,nome, units chart_type: Literal["line", "bar", "scatter"]="line", xKey="column_a", yKey="column_b")
 ```
 Currently only line, vertical bar, and scatter plots are supported.
 
